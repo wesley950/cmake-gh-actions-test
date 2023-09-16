@@ -1,8 +1,5 @@
 {
   "name" : "cmakeghactionstest",
   "version-string" : "1.0.0",
-  "dependencies" : [ {
-    "name" : "glfw3",
-    "version>=" : "3.3.8#2"
-  } ]
+  "dependencies" : [ "glfw3" ]
 }
