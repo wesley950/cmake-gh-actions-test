@@ -3,4 +3,5 @@ project(CmakeGHActionsTest)
 add_executable(CmakeGHActionsTest main.cpp)
 
 find_package(glfw3 CONFIG REQUIRED)
-target_link_libraries(CmakeGHActionsTest PRIVATE glfw)
+find_package(glad CONFIG REQUIRED)
+target_link_libraries(CmakeGHActionsTest PRIVATE glfw glad::glad)
